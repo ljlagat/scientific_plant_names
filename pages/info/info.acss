@@ -1,0 +1,5 @@
+.info {
+  padding: 32rpx;
+  font-size: 28rpx;
+  line-height: 1.6;
+}

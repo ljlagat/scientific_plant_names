@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="form">
+    <input placeholder="Enter plant name" value="{{query}}" onInput="onInput"/>
+  </view>
+  <view>
+    <button type="primary" onTap="searchPlant">Search</button>
+    <button type="default" onTap="goToInfo">Go to Info Page</button>
+  </view>
+
+  <antd-list header="Results">
+    <view a:for="{{results}}" a:key="id">
+      <view class="list-item">{{item.common_name}} ({{item.scientific_name}})</view>
+    </view>
+  </antd-list>
+</view>
+

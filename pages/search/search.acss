@@ -1,0 +1,12 @@
+.container {
+  padding: 24rpx;
+}
+
+.form {
+  margin-bottom: 24rpx;
+}
+
+.list-item {
+  padding: 16rpx 0;
+  border-bottom: 1px solid #eee;
+}
